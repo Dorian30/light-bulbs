@@ -1,26 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import LightPanel from './components/LightPanel';
+import Counter from './components/Counter';
+
+class Board extends Component {
+  render() {
+    return (
+      <>
+        <LightPanel />
+        {/* <Counter /> */}
+      </>
+    );
+  }
 }
 
-export default App;
+export default Board;

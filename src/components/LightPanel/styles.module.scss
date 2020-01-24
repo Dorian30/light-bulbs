@@ -1,0 +1,28 @@
+.light-panel {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 360px;
+  width: 100%;
+}
+
+.bulb-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px 20px;
+}
+
+.bulb-on,
+.bulb-of {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+
+.bulb-on {
+  background-image:  radial-gradient(circle, yellow, transparent);
+}
+
+.bulb-of {
+  background-color: gray;
+}
